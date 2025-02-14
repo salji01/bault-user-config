@@ -23,17 +23,17 @@
 
         base {
             bindings = <
-&kp Q             &kp W           &kp E       &kp R      &kp T  &kp Y          &kp U  &kp I            &kp O           &kp P                  &kp LEFT_BRACKET
-&kp A             &hm LEFT_ALT S  &hm LGUI D  &kp F      &kp G  &kp H          &kp J  &hm RIGHT_GUI K  &hm LEFT_ALT L  &kp ENTER
-&hm LEFT_SHIFT Z  &kp X           &kp C       &kp V      &kp B  &kp N          &kp M  &kp COMMA        &kp PERIOD      &hm RIGHT_SHIFT SLASH
-&kp LEFT_CONTROL  &trans          &mo 2       &kp SPACE         &kp BACKSPACE         &mo 1            &trans          &kp RIGHT_CONTROL
+&kp Q             &kp W           &kp E       &kp R      &kp T  &kp Y          &kp U  &kp I            &kp O        &kp P                  &kp SQT
+&kp A             &hm LEFT_ALT S  &hm LGUI D  &kp F      &kp G  &kp H          &kp J  &hm RIGHT_GUI K  &hm GLOBE L  &kp SEMI
+&hm LEFT_SHIFT Z  &kp X           &kp C       &kp V      &kp B  &kp N          &kp M  &kp COMMA        &kp PERIOD   &hm RIGHT_SHIFT SLASH
+&kp LEFT_CONTROL  &trans          &mo 2       &kp SPACE         &kp BACKSPACE         &mo 1            &trans       &kp RIGHT_CONTROL
             >;
         };
 
         layer_1 {
             bindings = <
 &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7    &kp N8    &kp N9     &kp N0     &studio_unlock
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp UP    &kp MINUS  &kp EQUAL
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp UP    &kp MINUS  &kp ENTER
 &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
 &kp N0  &trans  &trans  &trans          &trans            &trans    &trans     &kp N0
             >;
