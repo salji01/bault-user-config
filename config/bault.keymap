@@ -23,10 +23,10 @@
 
         base {
             bindings = <
-&kp Q             &kp W           &kp E       &kp R      &kp T  &kp Y          &kp U  &kp I            &kp O        &kp P                  &kp SQT
-&kp A             &hm LEFT_ALT S  &hm LGUI D  &kp F      &kp G  &kp H          &kp J  &hm RIGHT_GUI K  &hm GLOBE L  &kp SEMI
-&hm LEFT_SHIFT Z  &kp X           &kp C       &kp V      &kp B  &kp N          &kp M  &kp COMMA        &kp PERIOD   &hm RIGHT_SHIFT SLASH
-&kp LEFT_CONTROL  &trans          &mo 2       &kp SPACE         &kp BACKSPACE         &mo 1            &trans       &kp RIGHT_CONTROL
+&kp Q             &kp W           &kp E       &kp R        &kp T  &kp Y          &kp U  &kp I            &kp O        &kp P                  &kp SQT
+&kp A             &hm LEFT_ALT S  &hm LGUI D  &kp F        &kp G  &kp H          &kp J  &hm RIGHT_GUI K  &hm GLOBE L  &kp SEMI
+&hm LEFT_SHIFT Z  &kp X           &kp C       &kp V        &kp B  &kp N          &kp M  &kp COMMA        &kp PERIOD   &hm RIGHT_SHIFT SLASH
+&kp LEFT_CONTROL  &trans          &mo 2       &lt 1 SPACE         &kp BACKSPACE         &mo 1            &trans       &kp RIGHT_CONTROL
             >;
         };
 
@@ -45,6 +45,24 @@
 &trans  &trans  &trans  &trans  &trans  &trans        &trans        &trans        &trans        &trans
 &trans  &trans  &trans  &trans  &trans  &bt BT_CLR    &out OUT_BLE  &out OUT_USB  &out OUT_TOG  &trans
 &kp N0  &trans  &trans  &trans          &trans                      &trans        &trans        &kp N0
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans          &trans          &trans  &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans          &trans          &trans  &trans  &trans
             >;
         };
     };
